@@ -13,13 +13,14 @@ figure {
 	border: 1px solid black;
 	padding: 1.5rem;
 	background-color: lavenderblush;
+	width: 25%;
 }
 
 figure:hover {
 	background-color: lightblue;
 }
 
-.button-div {
+figure div {
 	text-align: center;
 }
 
@@ -36,4 +37,22 @@ button:hover {
 	background-color: lightgreen;
 	cursor: pointer;
 
+}
+
+@media screen and (max-width: 768px) {
+	figure {
+		width: 80%;
+	}
+	#products {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	figure {
+		width: 45%;
+	}
+	#products {
+		justify-content: space-evenly;
+	}
 }
