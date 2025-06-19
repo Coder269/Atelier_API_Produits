@@ -25,6 +25,7 @@ article {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    border-radius: 1rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
 }
@@ -38,5 +39,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+
 }
 

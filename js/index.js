@@ -42,9 +42,9 @@ let productButtonDiv = document.createElement("div");
 let productButton = document.createElement("button");
 
 productFigure.id = product.id.toString();
-productFigureCaption.innerHTML = `<h3>${product.title}</h3>`;
+productFigureCaption.innerHTML = `<h4>${product.title}</h4>`;
 productImage.src = product.thumbnail;
-productPrice.innerHTML = `<h4>Prix: ${product.price}$</h4>`;
+productPrice.innerHTML = `<h5>Prix: ${product.price}$</h5>`;
 productButtonDiv.classList.add("button-div");
 productButton.innerHTML = "Voir le produit";
 

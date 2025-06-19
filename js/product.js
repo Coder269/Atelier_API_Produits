@@ -16,8 +16,11 @@ function getProducts() {
         })
         .then(data => {
             products = data.products;
+                const params = new URLSearchParams(window.location.search);
+                const productId = params.get('id');
+
             products.forEach(product => {
-                if (product.id == window.location.search.split("=")[1]) {
+                if (product.id == productId) {
                     choosenProduct = product;
                     productH2.innerHTML = choosenProduct.title;
                     productImage.src = `${choosenProduct.images[0]}`;
