@@ -1,8 +1,4 @@
-html {
-    font-size: 16px;
-}
-
-body {
+html, body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
