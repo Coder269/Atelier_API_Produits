@@ -1,0 +1,24 @@
+h1, h2 {
+	text-align: center;
+}
+
+#products {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-wrap: wrap;
+}
+
+figure {
+	border: 1px solid black;
+	padding: 1.5rem;
+	background-color: lavenderblush;
+}
+
+figure:hover {
+	background-color: lightblue;
+}
+
+.button-div {
+	text-align: center;
+}
