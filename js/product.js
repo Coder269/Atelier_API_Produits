@@ -26,8 +26,6 @@ function getProducts() {
                     productImage.src = `${choosenProduct.images[0]}`;
                     productDescription.innerHTML = choosenProduct.description;
                 }
-
-
             });
 
         })
