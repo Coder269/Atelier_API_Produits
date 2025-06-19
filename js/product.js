@@ -5,6 +5,7 @@ let productH4 = document.querySelector("h4");
 let productImage = document.querySelector("img");
 let productDescription = document.querySelector("p");
 let shippingInformationH5 = document.querySelector("h5");
+let productPrice = document.getElementById("price");
 
 getProducts()
 function getProducts() {
@@ -27,7 +28,8 @@ function getProducts() {
                     productH2.innerHTML = chosenProduct.title;
                     productH4.innerHTML = chosenProduct.brand;
                     productImage.src = `${chosenProduct.images[0]}`;
-                    productDescription.innerHTML = chosenProduct.description;
+                    productDescription.textContent = chosenProduct.description;
+                    productPrice.innerHTML = `Prix: ${chosenProduct.price}$`;
                     shippingInformationH5.textContent  = chosenProduct.shippingInformation;
                 }
             });
