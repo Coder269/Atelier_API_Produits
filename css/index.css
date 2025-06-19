@@ -13,7 +13,7 @@ figure {
 	border: 1px solid black;
 	padding: 1.5rem;
 	background-color: lavenderblush;
-	width: 25%;
+	width: 20%;
 }
 
 figure:hover {
@@ -39,20 +39,21 @@ button:hover {
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	figure {
+		width: 30%;
+	}
+	#products {
+		justify-content: space-evenly;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	figure {
-		width: 80%;
+		width: 75%;
 	}
 	#products {
 		justify-content: space-around;
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-	figure {
-		width: 45%;
-	}
-	#products {
-		justify-content: space-evenly;
-	}
-}
