@@ -1,4 +1,4 @@
-let index = [];
+let products = [];
 let buttons = [];
 let chosenProduct = {};
 
@@ -16,12 +16,12 @@ function getProducts() {
 
         })
         .then(data => {
-            index = data.products;
+            products = data.products;
 
-            index.forEach(product => createProduct(product));
+            products.forEach(product => createProduct(product));
 
             buttons.forEach(button => button.addEventListener("click", () => {
-                index.forEach(product => {
+                products.forEach(product => {
                     if(product.id === parseInt(button.parentElement.parentElement.id)) {
                         chosenProduct = product;
                         window.location.href = `product.html?id=${chosenProduct.id}`;
