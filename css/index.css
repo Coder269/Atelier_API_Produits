@@ -11,6 +11,7 @@ h1, h2 {
 
 figure {
 	border: 1px solid black;
+	border-radius: 1rem;
 	padding: 1.5rem;
 	background-color: lavenderblush;
 	width: 20%;
@@ -30,7 +31,7 @@ button {
 	font-size: 1.2rem;
 	background-color: lightseagreen;
 	border: none;
-	border-radius: 5px;
+	border-radius: 1rem;
 }
 
 button:hover {
