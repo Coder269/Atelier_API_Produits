@@ -1,7 +1,16 @@
-html, body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
-    height: 100vh;
-    background-color: #c7d5d0;
+* {
+        box-sizing: border-box;
 }
+
+html, body {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 1.5;
+        background-color: #c7d5d0;
+    }
+
+
+
+
+
+
