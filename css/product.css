@@ -49,6 +49,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80%;
 }
 
 button {
@@ -73,10 +74,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         width: 80%;
-        height: 80%;
     }
     body {
-        height: auto;
+        height: fit-content;
     }
 
 
@@ -89,10 +89,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         width: 90%;
-        height: 80%;
     }
     body {
-        height: auto;
+        height: fit-content;
     }
 
 }
