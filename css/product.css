@@ -14,6 +14,11 @@ section {
 
 }
 
+#productImage {
+    text-align: center;
+    place-content: center;
+}
+
 img {
     width: 75%;
 
