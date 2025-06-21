@@ -4,7 +4,7 @@ section {
     grid-template-columns: 0.5fr 1.5fr 2fr 0.5fr;
 }
 
-.backgroud {
+.background {
     background-color: lavenderblush;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 1rem;

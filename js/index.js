@@ -1,6 +1,5 @@
 let products = [];
 let buttons = [];
-let chosenProduct = {};
 
 
 
@@ -21,12 +20,9 @@ function getProducts() {
             products.forEach(product => createProduct(product));
 
             buttons.forEach(button => button.addEventListener("click", () => {
-                products.forEach(product => {
-                    if(product.id === parseInt(button.parentElement.parentElement.id)) {
-                        chosenProduct = product;
-                        window.location.href = `product.html?id=${chosenProduct.id}`;
-                    }
-                })
+
+                const id = button.parentElement.parentElement.id;
+                window.location.href = `product.html?id=${id}`;
 
             }))
         })
