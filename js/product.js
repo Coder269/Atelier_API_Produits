@@ -7,8 +7,8 @@ let productDescription = document.querySelector("p");
 let shippingInformationH5 = document.querySelector("h5");
 let productPrice = document.getElementById("price");
 
-getProducts()
-function getProducts() {
+viewSingleProduct()
+function viewSingleProduct() {
     fetch("https://dummyjson.com/products")
         .then(response => {
 
