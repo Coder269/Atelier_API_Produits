@@ -1,2 +1,2 @@
-Simulation d'un site e-commerce basique, la page principale qui affiche l'ensemble des produits récupérés à partir de https://dummyjson.com/ Faker API
+Simulation d'un site e-commerce basique, la page principale affiche l'ensemble des produits récupérés à partir de https://dummyjson.com/ Faker API
 et en cliquant sur un produit ca ouvre une nouvelle page dédiée à ce produit avec son id dans l'url de cette page.
